@@ -6,6 +6,5 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-input = gets.chomp
-input.to_i
-puts input.to_i.class
+user_input = gets.chomp
+
