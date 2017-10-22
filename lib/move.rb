@@ -13,7 +13,7 @@ def input_to_index(number)
     puts number
     puts number.class
 
-    number = 5
-    number.to_i
-    puts number.class
+    numberr = 5
+    numberr.to_i
+    puts numberr.class
 end
