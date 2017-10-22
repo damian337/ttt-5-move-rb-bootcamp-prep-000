@@ -9,9 +9,6 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(number)
+    number = number.to_i
     puts number.class
-
-    numberr = 5
-    numberr.to_i
-    puts numberr.class
 end
