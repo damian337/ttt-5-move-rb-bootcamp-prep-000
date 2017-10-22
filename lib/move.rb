@@ -10,5 +10,5 @@ end
 
 def input_to_index(number)
     number = number.to_i
-    puts number.class
+    number = number - 1
 end
