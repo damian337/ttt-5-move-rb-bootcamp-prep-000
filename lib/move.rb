@@ -10,8 +10,8 @@ end
 
 def input_to_index(number)
     number.to_i
-    puts user_input
-    puts user_input.class
+    puts number
+    puts number.class
 
     number = 5
     number.to_i
