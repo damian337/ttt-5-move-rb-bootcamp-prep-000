@@ -13,6 +13,7 @@ def input_to_index(number)
     number = number - 1
 end
 
-def update_array_at_with(array, index, value)
+def move(array, index, value)
     array[index] = value
+    return array
 end
