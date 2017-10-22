@@ -12,3 +12,7 @@ def input_to_index(number)
     number = number.to_i
     number = number - 1
 end
+
+def update_array_at_with(array, index, value)
+    array[index] = value
+end
